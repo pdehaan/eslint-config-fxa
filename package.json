@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-fxa",
+  "description": "ESLint shareable config file for Firefox Accounts projects.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/eslint-config-fxa/issues"
+  },
+  "homepage": "https://github.com/pdehaan/eslint-config-fxa",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "fxa"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdehaan/eslint-config-fxa.git"
+  },
+  "scripts": {
+    "test": "standard"
+  }
+}
