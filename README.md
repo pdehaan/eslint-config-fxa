@@ -10,10 +10,7 @@ $ npm install eslint-config-fxa -D
 
 ## Usage:
 1. Create an .eslintrc file in your project's root directory.
-2. Add the following boilerplate:
-    ```yaml
-extends: fxa
-```
+2. Add the following content to your project's .eslintrc file: `"extends": "fxa"`.
 3. Run `$ eslint .` (if you have ESLint installed globally, or call via `$ ./node_modules/.bin/eslint .` in your Terminal, or simply `eslint .` if you're using an npm `script` task).
 
 ## Options:
