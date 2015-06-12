@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
   'env': {
     'es6': true, // enable all ECMAScript 6 features except for modules
@@ -7,6 +9,7 @@ module.exports = {
     'camelcase': 0,
     'comma-dangle': 0,
     'complexity': [2, 6],
+    'consistent-this': [1, 'self'],
     'consistent-return': 0,
     'curly': [2, 'all'],
     'dot-notation': 0,
@@ -25,6 +28,7 @@ module.exports = {
     'no-multi-spaces': 0,
     'no-multiple-empty-lines': [2, {'max': 2}],
     'no-new': 2,
+    'no-process-exit': 0,
     'no-script-url': 2,
     'no-sequences': 2,
     'no-shadow': 0,
