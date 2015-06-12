@@ -4,6 +4,8 @@ module.exports = {
   'extends': './index',
 
   'rules': {
-    'semi': [1, 'never']
+    'curly': 0,
+    'semi': [1, 'never'],
+    'strict': 0
   }
 }

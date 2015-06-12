@@ -17,6 +17,7 @@ module.exports = {
     'eqeqeq': [2, 'allow-null'],
     'global-strict': [0, 'never'],
     'handle-callback-err': 1,
+    'indent': [2, 2], // 2 spaces indentation
     'key-spacing': 0,
     'new-cap': 0,
     'no-cond-assign': [2, 'except-parens'],
