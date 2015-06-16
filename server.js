@@ -1,9 +1,9 @@
 'use strict'
 
 module.exports = {
-  'extends': './index',
+  extends: './index',
 
-  'rules': {
+  rules: {
     'curly': 0,
     'semi': [1, 'never'],
     'strict': 0

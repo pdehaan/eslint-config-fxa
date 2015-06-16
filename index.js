@@ -1,11 +1,11 @@
 'use strict'
 
 module.exports = {
-  'env': {
-    'es6': true, // enable all ECMAScript 6 features except for modules
-    'node': true // Node.js global variables and Node.js-specific rules
+  env: {
+    es6: true, // enable all ECMAScript 6 features except for modules
+    node: true // Node.js global variables and Node.js-specific rules
   },
-  'rules': {
+  rules: {
     'camelcase': 0,
     'comma-dangle': 0,
     'complexity': [2, 6],
@@ -15,7 +15,7 @@ module.exports = {
     'dot-notation': 0,
     'eol-last': 2,
     'eqeqeq': [2, 'allow-null'],
-    'global-strict': [0, 'never'],
+    'global-strict': 0,
     'handle-callback-err': 1,
     'indent': [2, 2], // 2 spaces indentation
     'key-spacing': 0,
@@ -38,9 +38,9 @@ module.exports = {
     'no-undef': 2,
     'no-underscore-dangle': 0,
     'no-unused-vars': [1, {'vars': 'all', 'args': 'none'}],
-    'no-use-before-define': true,
+    'no-use-before-define': [2, 'nofunc'],
     'no-with': 2,
-    'quotes': [2, 'single'],
+    'quotes': [2, 'single', 'avoid-escape'],
     'semi': [2, 'always'],
     'space-unary-ops': 0,
     'strict': 2,

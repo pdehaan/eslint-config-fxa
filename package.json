@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-fxa",
   "description": "ESLint shareable config file for Firefox Accounts projects.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
   "bugs": {
     "url": "https://github.com/pdehaan/eslint-config-fxa/issues"
