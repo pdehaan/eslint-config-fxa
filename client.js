@@ -10,6 +10,8 @@ module.exports = {
   },
 
   rules: {
-    strict: [2, 'global']
+    'complexity': [2, 6],
+    'consistent-this': [2, 'self'],
+    'strict': [2, 'global']
   }
 }

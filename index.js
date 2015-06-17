@@ -8,8 +8,6 @@ module.exports = {
   rules: {
     'camelcase': 0,
     'comma-dangle': 0,
-    'complexity': [2, 6],
-    'consistent-this': [2, 'self'],
     'consistent-return': 0,
     'curly': [2, 'all'],
     'dot-notation': 0,
