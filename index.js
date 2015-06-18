@@ -41,7 +41,7 @@ module.exports = {
     'quotes': [2, 'single', 'avoid-escape'],
     'semi': [2, 'always'],
     'space-unary-ops': 0,
-    'strict': 2,
+    'strict': 0,
     'valid-typeof': 2,
     'wrap-iife': 0,
     'yoda': 0

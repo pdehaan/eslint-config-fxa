@@ -12,6 +12,6 @@ module.exports = {
   rules: {
     'complexity': [2, 6],
     'consistent-this': [2, 'self'],
-    'strict': [2, 'global']
+    'strict': [2, 'function']
   }
 }

@@ -5,7 +5,6 @@ module.exports = {
 
   rules: {
     'curly': 0,
-    'semi': [1, 'never'],
-    'strict': 0
+    'semi': [2, 'never']
   }
 }
