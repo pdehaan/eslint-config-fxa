@@ -8,6 +8,7 @@ module.exports = {
   rules: {
     'camelcase': 0,
     'comma-dangle': 0,
+    "comma-style": [2, 'last'],
     'consistent-return': 0,
     'curly': [2, 'all'],
     'dot-notation': 0,
