@@ -11,7 +11,6 @@ module.exports = {
 
   rules: {
     'camelcase': 2,
-    'complexity': [2, 6],
     'consistent-this': [2, 'self'],
     'strict': [2, 'function']
   }
