@@ -16,7 +16,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pdehaan/eslint-config-fxa.git"
+    "url": "git+https://github.com/pdehaan/eslint-config-fxa.git"
   },
   "scripts": {
     "test": "standard"
