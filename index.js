@@ -1,6 +1,8 @@
 'use strict'
 
 module.exports = {
+  extends: 'eslint:recommended',
+
   env: {
     es6: true, // enable all ECMAScript 6 features except for modules
     node: true // Node.js global variables and Node.js-specific rules
@@ -8,7 +10,7 @@ module.exports = {
   rules: {
     'camelcase': 0,
     'comma-dangle': 0,
-    "comma-style": [2, 'last'],
+    'comma-style': [2, 'last'],
     'consistent-return': 0,
     'curly': [2, 'all'],
     'dot-notation': 0,
