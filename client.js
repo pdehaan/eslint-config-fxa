@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  extends: './index',
+  extends: 'fxa/index',
 
   env: {
     amd: true, // defines require() and define() as global variables as per the amd spec
