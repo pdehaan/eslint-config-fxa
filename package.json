@@ -20,5 +20,9 @@
   },
   "scripts": {
     "test": "standard"
+  },
+  "peerDependencies": {
+    "eslint-plugin-no-unsafe-innerhtml": "^1.0.15",
+    "eslint-plugin-scanjs-rules": "^0.1.4"
   }
 }
