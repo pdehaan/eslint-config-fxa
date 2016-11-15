@@ -12,8 +12,12 @@
     "eslintconfig",
     "fxa"
   ],
-  "license": "WTFPL",
+  "license": "MPL-2.0",
   "main": "index.js",
+  "peerDependencies": {
+    "eslint-plugin-no-unsafe-innerhtml": "^1.0.15",
+    "eslint-plugin-scanjs-rules": "^0.1.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pdehaan/eslint-config-fxa.git"
