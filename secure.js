@@ -96,4 +96,4 @@ module.exports = {
     'scanjs-rules/property_mozWifiManager': 1,
     'scanjs-rules/property_sessionStorage': 1
   }
-};
+}
