@@ -10,8 +10,8 @@ module.exports = {
   },
 
   rules: {
-    'camelcase': 2,
-    'consistent-this': [2, 'self'],
-    'strict': [2, 'function']
+    'camelcase': 'error',
+    'consistent-this': ['error', 'self'],
+    'strict': ['error', 'function']
   }
 }
