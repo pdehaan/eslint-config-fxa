@@ -29,6 +29,7 @@ module.exports = {
     'no-loop-func': 'off',
     'no-multi-spaces': 'off',
     'no-multiple-empty-lines': ['error', {'max': 2}],
+    'no-nested-ternary': 'error',
     'no-new': 'error',
     'no-process-exit': 'off',
     'no-script-url': 'error',
